@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Freelancer Dashboard</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+    }
+    th {
+      background-color: #f4f4f4;
+    }
+    #average_price {
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+  <h1 style="color: rgb(12, 12, 12); font-size: 40px; text-align: center;">Freelancer Forum</h1>
+  <p style="text-align: center; font-size: 30px;">The average starting price is $<span id="average_price">0.00</span></p>
+  <h2 style="color: rgb(12, 12, 12); font-size: 40px; text-align: center;">Available Freelancers</h2>
+  <div id="freelancer_container"></div>
+  <script src="freelance.js"></script>
+</body>
+</html>
